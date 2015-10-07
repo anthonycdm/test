@@ -7,7 +7,7 @@
             <?php  if (!isset($_SESSION['identifie']) || true !== $_SESSION['identifie']) : ?>
                 <a href="index.php?page=identification.php" title="S'identifier">S'identifier</a>
             <?php else : ?>
-                <a href="deconnexion.php" title="Se déconnecter">Se déconnecter</a>
+                <a href="deconnexion.php" title="Se déconnecter">Se déconnecter !!!</a>
             <?php endif; ?>
         </li>
         <?php if (isset($_SESSION['identifie']) && true === $_SESSION['identifie']) : ?>

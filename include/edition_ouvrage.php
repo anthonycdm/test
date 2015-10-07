@@ -21,7 +21,7 @@ if (isset($_POST['editer'])) {
         $bUpload = (bool) move_uploaded_file($_FILES['couverture']['tmp_name'], 'couverture/' . $_FILES['couverture']['name']);
     }
         
-    /**
+    /*
      * Modification des informations de l'ouvrage
      * en base de données si l'upload a été effectué
      */
